@@ -21,3 +21,24 @@ En este laboratorio ganará algún grado de familiaridad con la asignación de m
 8. Intente usar alguna de las otras interfaces para asignacion de memoria. Por ejemplo, cree una estructura de datos simple similar a un vector y que use rutinas que usen realloc para manejar el vector. Use un array para almacenar los elementos del vector; cuando un usuario agregue una entrada al vector, use realloc para asignar un espacio mas a este. ¿Que tan bien funciona el vector asi?, ¿Como se compara con una lista enlazada?, utilice ```valgrind``` para ayudarse en la busqueda de errores.
 
 9. Gaste mas tiempo y lea sobre el uso de gdb y valgrind. Conocer estas herramientas es critico; gaste el tiempo y aprenda como volverse un experto debugger en UNIX y C enviroment.
+
+
+### Valgrind ###
+
+1. http://valgrind.org/docs/manual/quick-start.html
+2. http://www.st.ewi.tudelft.nl/koen/ti2725-c/valgrind.pdf
+3. http://pages.cs.wisc.edu/~bart/537/valgrind.html
+4. http://web.mit.edu/amcp/drg/valgrind-howto.pdf
+
+### GDB ###
+
+1. http://www.lsi.us.es/~javierj/ssoo_ficheros/GuiaGDB.htm
+2. https://www.gdb-tutorial.net/
+3. https://web.eecs.umich.edu/~sugih/pointers/summary.html
+4. https://www.cs.umd.edu/~srhuang/teaching/cmsc212/gdb-tutorial-handout.pdf
+5. https://lihuen.linti.unlp.edu.ar/index.php/C%C3%B3mo_usar_GDB
+6. https://www.cs.cmu.edu/~gilpin/tutorial/
+7. http://pages.di.unipi.it/bodei/CORSO_FP_17/FP/Lezioni/gdb-commands.pdf
+8. https://cs.brown.edu/courses/cs033/docs/guides/gdb.pdf
+9. https://darkdust.net/files/GDB%20Cheat%20Sheet.pdf
+10. http://users.ece.utexas.edu/~adnan/gdb-refcard.pdf
