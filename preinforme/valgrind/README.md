@@ -148,4 +148,6 @@ int main(){
 9. http://www.liv.ic.unicamp.br/~rteixeira/ensino/valgrind.pdf
 10. http://www.betterembedded.it/media/conference/slides/detecting-memory-leaks-with-valgrind.pdf
 11. http://www.mathcs.richmond.edu/~lbarnett/cs240/assignments/lab4.pdf
-
+12. http://pages.cs.wisc.edu/~bart/537/valgrind.html
+13. https://www.cprogramming.com/debugging/valgrind.html
+14. http://cs.ecs.baylor.edu/~donahoo/tools/valgrind/
