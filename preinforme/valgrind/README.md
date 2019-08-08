@@ -1,7 +1,29 @@
+
+# Uso basico del valgring #
+
+Tal y como se muestra en [The Valgrind Quick Start Guide](http://valgrind.org/docs/manual/quick-start.html). Asumiendo que ya usted ha compilado y enlazado un programa mediante el siguiente comando
+
+```
+gcc myprog.c -o myprog
+```
+
+De modo que para ejecutarlo si se diese el caso en el que el programa solicita el ingreso de dos argumentos, la intrucción a ejecutar es:
+
+```
+./myprog arg1 arg2
+```
+
+Si usted quiere analizar el programa usando valgrind una de las formas basicas puede ser mediante la aplicación del siguiente comando:
+
+```
+valgrind --leak-check=yes myprog arg1 arg2
+```
+
 # Codigos ejemplo #
 
 Los siguientes códigos son tomados del siguiente del tutorial [Manual Rápido de Valgrind](https://users.dcc.uchile.cl/~skreft/material/cc31a/valgrind.pdf). 
 Acceda a este y trate de entender las salidas que allí se muestran pues aceleraran el desarrollo del laboratorio el dia de la sesión presencial. 
+
 Para facilitar seguir el tutorial se proporsionan los codigos.
 
 ## 1. Lectura/Escritura no permitida ##
