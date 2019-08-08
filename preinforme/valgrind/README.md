@@ -16,8 +16,10 @@ De modo que para ejecutarlo si se diese el caso en el que el programa solicita e
 Si usted quiere analizar el programa usando valgrind una de las formas basicas puede ser mediante la aplicación del siguiente comando:
 
 ```
-valgrind --leak-check=yes myprog arg1 arg2
+valgrind --leak-check=yes ./myprog arg1 arg2
 ```
+
+**Bonus**: Aprender a usar Valkyrie (a graphical user interface for Valgrind) en paralelo.
 
 # Codigos ejemplo #
 
@@ -151,3 +153,10 @@ int main(){
 12. http://pages.cs.wisc.edu/~bart/537/valgrind.html
 13. https://www.cprogramming.com/debugging/valgrind.html
 14. http://cs.ecs.baylor.edu/~donahoo/tools/valgrind/
+15. https://www.thegeekstuff.com/2011/11/valgrind-memcheck/
+16. https://riptutorial.com/c/topic/2674/valgrind
+17. https://www.ic.unicamp.br/~rafael/cursos/2s2017/mc202/valgrind.html
+18. https://en.wikipedia.org/wiki/Valgrind
+19. https://heeris.id.au/2016/valgrind-gdb/
+20. https://waterprogramming.wordpress.com/2018/03/25/making-valgrind-easy/
+
