@@ -28,7 +28,7 @@ Por el contrario, Valgrind sí nos muestra que hay un ```memory leak``` (pérdid
 ![alt tag](https://github.com/university777/lab3_memory-api/blob/master/punto5.png)
 
 6. Codifique un programa que asigne un array de enteros (como arriba), luego lo libere, y entonces intente imprimir el valor de un elemento del array. ¿El programa corre?, ¿Que pasa cuando hace uso de ```valgrind```?  
-Sí, el programa corre e imprime un 0:
+>Sí, el programa corre e imprime un 0:  
 ![alt tag](https://github.com/university777/lab3_memory-api/blob/master/punto6_1.png)  
 Al usar ```valgrind``` se detecta un error de lectura: se está leyendo el valor de una dirección de memoria que ya fue liberada.   
 ![alt tag](https://github.com/university777/lab3_memory-api/blob/master/punto6_2.png)
